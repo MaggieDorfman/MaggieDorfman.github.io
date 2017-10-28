@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/swipebox.css">
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
@@ -40,15 +41,11 @@
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
+								<img src="images/IMG_1451.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>Landing</h1>
+								<h1>Photos</h1>
 							</header>
-							<div class="content">
-								<p>Lorem ipsum dolor sit amet nullam consequat<br />
-								sed veroeros. tempus adipiscing nulla.</p>
-							</div>
 						</div>
 					</section>
 
@@ -59,9 +56,63 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Sed amet aliquam</h2>
+										<h2>Headshots</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+									<div class="gallery">
+										<div class="gallery-images">
+											<a rel="gallery-1" href="images/IMG_1451.jpg" class="swipebox" title="Yoga">
+												<img class="small-image" src="images/IMG_1451.jpg" alt="image">
+											</a>
+										</div>
+										<div class="gallery-images">
+											<a rel="gallery-1" href="images/coffee.jpg" class="swipebox" title="Hot Cocoa">
+												<img class="small-image" src="images/coffee.jpg" alt="image">
+											</a>
+										</div>
+										<div class="gallery-images">
+											<a rel="gallery-1" href="images/IMG_1451.jpg" class="swipebox" title="Yoga">
+												<img class="small-image" src="images/IMG_1451.jpg" alt="image">
+											</a>
+										</div>
+										<div class="gallery-images">
+											<a rel="gallery-1" href="images/coffee.jpg" class="swipebox" title="Hot Cocoa">
+												<img class="small-image" src="images/coffee.jpg" alt="image">
+											</a>
+										</div>
+										<div class="gallery-images">
+											<a rel="gallery-1" href="images/IMG_1451.jpg" class="swipebox" title="Yoga">
+												<img class="small-image" src="images/IMG_1451.jpg" alt="image">
+											</a>
+										</div>
+										<div class="gallery-images">
+											<a rel="gallery-1" href="images/coffee.jpg" class="swipebox" title="Hot Cocoa">
+												<img class="small-image" src="images/coffee.jpg" alt="image">
+											</a>
+										</div>
+									</div>
+
+
+
+									<header class="major">
+										<h2>Production Stills</h2>
+									</header>
+									<div class="gallery">
+										<div class="gallery-images">
+											<a rel="gallery-2" href="images/IMG_1451.jpg" class="swipebox" title="Yoga">
+												<img class="small-image" src="images/IMG_1451.jpg" alt="image">
+											</a>
+										</div>
+										<div class="gallery-images">
+											<a rel="gallery-2" href="images/coffee.jpg" class="swipebox" title="Hot Cocoa">
+												<img class="small-image" src="images/coffee.jpg" alt="image">
+											</a>
+										</div>
+									</div>
+
+									<header class="major">
+										<h2>Random</h2>
+									</header>
+
 								</div>
 							</section>
 
@@ -124,9 +175,9 @@
 							<div class="inner">
 								<ul class="icons">
 
-									<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://www.facebook.com/Maggie-Dorfman-1388529411270054/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/magdorkman/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<!-- <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li> -->
 									<!-- <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li> -->
 								</ul>
 								<ul class="copyright">
@@ -141,10 +192,20 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.swipebox.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+			;( function( $ ) {
+
+				$( '.swipebox' ).swipebox( {
+					useSVG: false
+				});
+
+			} )( jQuery );
+			</script>
 
 	</body>
 </html>
