@@ -1641,11 +1641,14 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: 'Special Elite', "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Libre Baskerville', "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
+	}
+	p {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1823,13 +1826,18 @@
 	section.special, article.special {
 		text-align: center;
 	}
+	header.major .about{
+		width: 100%;
+		text-align: center;
+
+	}
 
 	header.major {
-		width: -moz-max-content;
+		/*width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		margin-bottom: 2em;*/
 	}
 
 		header.major > :first-child {
@@ -2982,6 +2990,10 @@
 				background-image: url(../../images/coffee.jpg);
 				background-size: cover;
 			}
+			.spotlights > section > .charity-image {
+				background-image: url(../../images/bigsmiles.jpg);
+				background-size: cover;
+			}
 			.spotlights > section > .about-image img {
 				border-radius: 0;
 				display: block;
@@ -3037,6 +3049,9 @@
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
 				width: 70%;
+			}
+			.inner.about {
+				padding: 2em 3em 0.1em 3em ;
 			}
 
 				.spotlights > section > .content > .inner {
@@ -3108,6 +3123,9 @@
 					padding: 4em 3em 2em 3em ;
 					width: 100%;
 				}
+				.inner.about {
+					padding: 4em 3em 2em 3em
+				}
 
 		}
 
@@ -3116,6 +3134,10 @@
 			.spotlights > section > .content {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
+			.inner.about {
+				padding: 3em 1.5em 1em 1.5em ;
+			}
+
 
 		}
 
